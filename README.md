@@ -53,16 +53,6 @@ Ante una baja adopción, primero conversaría con las dos personas para entender
 
 El enunciado menciona dos escenarios, pero el PDF solo presenta el escenario A. No se inventa una respuesta para un escenario ausente.
 
-## Demo de 15 minutos
-
-1. **0–2 min:** explicar el problema y arrancar con los dos comandos anteriores.
-2. **2–6 min:** elegir una carpeta de prueba, introducir nombre y autor y generar las tres plantillas.
-3. **6–9 min:** mostrar archivos, metadatos, progreso y registro persistente.
-4. **9–12 min:** repetir el nombre, mostrar cancelar/cambiar nombre/sobrescribir y una entrada inválida.
-5. **12–15 min:** ejecutar `npm test`, resumir arquitectura y límites y responder el escenario de adopción.
-
-Para la defensa técnica, preparar las razones para usar Node sin dependencias, la diferencia entre validación de API y permisos del navegador, la ausencia de rutas absolutas y el manejo de fallos parciales.
-
 ## Comprobaciones de seguridad
 
 Ejecuta `npm test`. Las pruebas cubren entradas malformadas, rutas no permitidas, escape de contenido, límites de solicitudes, validación de manifiestos y solicitudes de otros sitios.
