@@ -51,7 +51,7 @@ El backend HTTP nativo de Node.js valida la solicitud y prepara el manifiesto de
 
 Primero hablaría con ellos y observaría su flujo actual para entender la fricción. Mediría cuánto tardan hoy en crear la estructura y probaríamos juntos la herramienta. Si abrir el navegador añade pasos, simplificaría el arranque con un acceso directo o apertura automática. Haría un piloto pequeño, recogería sus comentarios y compararía tiempo y errores. Con esos resultados decidiríamos qué mejorar y si conviene adoptarla.
 
-También dejaría por escrito qué problema encontramos, qué cambiamos y cómo nos fue. Con una guía corta, quien llegue después puede usar la herramienta y entender por qué la hicimos así. Esto ayuda a no repetir errores y a seguir mejorando el proceso con lo que vamos aprendiendo.
+También documentaríamos qué problema encontramos, qué cambiamos y cómo nos fue. Con una guía corta, quien llegue después puede usar la herramienta y entender por qué la hicimos así. Esto ayuda a no repetir errores y a seguir mejorando el proceso con lo que vamos aprendiendo.
 
 ## Comprobaciones de seguridad
 
