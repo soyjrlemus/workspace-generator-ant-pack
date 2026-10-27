@@ -49,7 +49,9 @@ El backend HTTP nativo de Node.js valida la solicitud y prepara el manifiesto de
 
 ## Decisión de liderazgo
 
-Ante una baja adopción, primero conversaría con las dos personas para entender el costo real del flujo y observar cómo hacen hoy la tarea. Probaría con ellas una versión más rápida, mediría tiempo y errores antes y después, e incorporaría su feedback. Compartiría resultados con el equipo y dejaría que la mejora del proceso impulse la adopción, sin imponer la herramienta.
+Primero hablaría con ellos y observaría su flujo actual para entender la fricción. Mediría cuánto tardan hoy en crear la estructura y probaríamos juntos la herramienta. Si abrir el navegador añade pasos, simplificaría el arranque con un acceso directo o apertura automática. Haría un piloto pequeño, recogería sus comentarios y compararía tiempo y errores. Con esos resultados decidiríamos qué mejorar y si conviene adoptarla.
+
+También documentaría el proceso: el problema inicial, los comentarios del equipo, los cambios realizados y los resultados. Dejaría una guía breve de uso y de problemas frecuentes para que las personas que lleguen después puedan entender la herramienta y las decisiones que tomamos. Para mí, esto es importante porque conserva el conocimiento del equipo, facilita la incorporación de nuevas personas y permite mejorar los procesos con una referencia de lo que probamos, lo que funcionó y lo que todavía debemos ajustar.
 
 El enunciado menciona dos escenarios, pero el PDF solo presenta el escenario A. No se inventa una respuesta para un escenario ausente.
 
