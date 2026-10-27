@@ -63,6 +63,8 @@ Para la defensa técnica, preparar las razones para usar Node sin dependencias, 
 
 Ejecuta `npm test`. Las pruebas cubren entradas malformadas, rutas no permitidas, escape de contenido, límites de solicitudes, validación de manifiestos y solicitudes de otros sitios.
 
+QA de entrega: 23 pruebas automatizadas aprobadas. Permisos denegados y fallos parciales se verificaron mediante simulación controlada. En el navegador se comprobó crear, cancelar, sobrescribir y cambiar de nombre; este último caso se confirmó manualmente con dos carpetas al mismo nivel.
+
 El servidor solo escucha en loopback, comprueba Host y Origin, limita el cuerpo JSON a 32 KiB y sirve una lista explícita de archivos públicos. La interfaz comprueba las rutas del manifiesto antes de escribir y bloquea cambios del formulario durante la operación.
 
 Las escrituras no son una transacción completa: un fallo puede dejar archivos parciales. Evita modificar simultáneamente la misma carpeta desde otra aplicación; la API del navegador no proporciona creación exclusiva de directorios.
@@ -71,7 +73,7 @@ Las escrituras no son una transacción completa: un fallo puede dejar archivos p
 
 Inter variable (400–600) se sirve localmente en WOFF2, con licencia en `public/fonts/OFL.txt`. Se usa el subconjunto latino de 48.256 bytes y `font-display: swap`. No se consultan servicios de fuentes ni librerías de iconos al utilizar la app.
 
-Medición de contenido HTTP con Gzip: carga inicial de aproximadamente 61,5 KB (HTML, CSS, JS, fuente y health; sin contar cabeceras). HTML/CSS/JS pasan de 46,5 KB a 13,2 KB, aproximadamente 72% menos. La fuente tiene caché de 24 horas; los recursos de texto usan ETag y respuestas 304. Estos valores describen transferencia, no una puntuación de Lighthouse.
+Medición de contenido HTTP con Gzip: carga inicial de aproximadamente 62 KB (HTML, CSS, JS, fuente y health; sin contar cabeceras). HTML/CSS/JS pasan de 47,3 KB a 13,7 KB, aproximadamente 71% menos. La fuente tiene caché de 24 horas; los recursos de texto usan ETag y respuestas 304. Estos valores describen transferencia, no una puntuación de Lighthouse.
 
 Diseño revisado en Chrome a 320, 375, 768, 1024 y 1440 px: sin desbordamiento horizontal de página ni controles fuera de pantalla. La emulación responsive no sustituye pruebas en dispositivos físicos. La selección de carpetas requiere Chrome o Edge de escritorio compatible; el diseño móvil permite consultar la interfaz.
 
