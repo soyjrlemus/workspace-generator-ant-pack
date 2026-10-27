@@ -2,6 +2,10 @@
 
 Herramienta local para crear en segundos una estructura inicial de carpetas y recursos para una tarea o proyecto.
 
+## Tiempo de realización
+
+27 de octubre de 2026, de 5:03 p. m. a aproximadamente 6:20 p. m. (Bogotá): **1 hora y 17 minutos**, incluyendo implementación, QA, documentación y publicación. Se utilizó asistencia de IA con autorización para la prueba.
+
 ## Ejecutar
 
 Requisitos: Node.js 20 o superior (incluye npm) y Chrome o Edge de escritorio actualizado. Abre una terminal dentro de la carpeta raíz del repositorio, donde está `package.json`.
